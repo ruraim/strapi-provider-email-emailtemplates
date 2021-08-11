@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-email-emailtemplates",
+  "version": "1.0.0",
+  "description": "Strapi email provider for forwardemail/email-templates",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellraimundo/strapi-provider-email-emailtemplates.git"
+  },
+  "keywords": [
+    "strapi",
+    "email",
+    "strapi-provider-email",
+    "strapi-email-templates"
+  ],
+  "author": "Russell Raimundo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russellraimundo/strapi-provider-email-emailtemplates/issues"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "homepage": "https://github.com/russellraimundo/strapi-provider-email-emailtemplates#readme",
+  "dependencies": {
+    "email-templates": "^8.0.7",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2"
+  }
+}
